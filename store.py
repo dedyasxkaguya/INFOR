@@ -1,7 +1,9 @@
 import random
-
+print("============================")
+print("====WELCOME TO WAW STORE====")
+print("============================")
 money = random.randint(250,5000)
-print(money)
+print(f'\n====Your budget is :{money}====\n')
 buyedLaptop = []
 class Laptop :
     def __init__(self,id,merk,name,ram,storage,cpu,screen,price,special):
