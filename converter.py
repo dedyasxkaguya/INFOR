@@ -1,3 +1,4 @@
+import math
 isContinue = True
 
 while(isContinue):
@@ -7,7 +8,7 @@ while(isContinue):
         print(f'Kamu ingin konversi {idr} ke usd')
         print("Sedang konversi ke USD")
         hasil = idr / 16602
-        print(f'{idr} jika dikonversi ke usd adalah {hasil}')
+        print(f'{idr} jika dikonversi ke usd adalah ${hasil} USD')
         
         q = input("Apakah ingin lanjut? Y/N : ")
         
